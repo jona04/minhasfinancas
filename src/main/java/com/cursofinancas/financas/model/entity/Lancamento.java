@@ -59,7 +59,7 @@ public class Lancamento {
 	
 	@Column(name = "status")
 	@Enumerated(value = EnumType.STRING)
-	private StatusLancamento satus;
+	private StatusLancamento status;
 
 	
 	
